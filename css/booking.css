@@ -1,0 +1,67 @@
+.booking {
+  width: 830px;
+  height: 60%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.booking .container {
+  width: 830px;
+  max-width: 1920px;
+}
+.booking .container .title h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+.booking .container form {
+  background-color: white;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+}
+.booking .container form input {
+  height: 58px;
+  border: 2px solid #79ADDC;
+  padding: 10px;
+  margin: 21px;
+}
+.booking .container form #name, .booking .container form #country {
+  width: 344px;
+}
+.booking .container form #email, .booking .container form #hotel {
+  width: 453px;
+}
+.booking .container form #check-in, .booking .container form #check-out {
+  width: 698px;
+}
+.booking .container form select {
+  height: 58px;
+  border: 2px solid #79ADDC;
+  padding: 10px;
+  width: 103px;
+  margin: 21px;
+}
+.booking .container form .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.booking .container form textarea {
+  height: 192px;
+  border: 2px solid #79ADDC;
+  width: 830px;
+}
+.booking .container form .learn-more a {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
